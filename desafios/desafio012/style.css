@@ -94,13 +94,10 @@ section.normal {
     background-color:#b49d8a;
     font-size: medium;
     color: #38302b;
-    text-align: center;
-
     
 }
 section.efeitofundo {
     background-color:#ddbda3;
-    text-align: center;
     color: #38302b;
     font-size: medium
 }
