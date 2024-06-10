@@ -59,7 +59,6 @@ header > p {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-
 div {
     display: inline-block;
     background-color:#201810;
@@ -69,11 +68,9 @@ div {
     text-align: center;
     height: 20px;
     width: 100px;
-
-
-   
-   
+    margin: 2px;
 }
+
 div:hover {
     background-color: #5e5d5d;
 }
