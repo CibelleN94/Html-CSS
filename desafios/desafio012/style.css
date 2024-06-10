@@ -6,7 +6,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
-
+*{
+    margin: 0px;
+    padding:0px;
+}
 
 
     
@@ -67,6 +70,7 @@ div {
     height: 20px;
     width: 100px;
 
+
    
    
 }
@@ -81,23 +85,28 @@ section {
     padding-bottom: 10%;
     line-height: 2em;
     padding-left: 30px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 
 }
 
 section.normal {
     background-color:#b49d8a;
+    font-size: medium;
     color: #38302b;
+    text-align: center;
 
     
 }
 section.efeitofundo {
     background-color:#ddbda3;
+    text-align: center;
     color: #38302b;
+    font-size: medium
 }
 
 section.normal, > p {
     background-color: #9b423f94;
-    
     padding-left: 30px;
     width: 400px;
     
