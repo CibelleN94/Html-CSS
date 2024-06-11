@@ -69,6 +69,12 @@ div {
     height: 20px;
     width: 100px;
     margin: 2px;
+    border-radius: 2px;
+    transition-duration: 0.80s;
+    padding-inline: 10px;
+    margin-bottom: 30px;
+    text-decoration: none;
+
 }
 
 div:hover {
@@ -84,6 +90,9 @@ section {
     padding-left: 30px;
     padding-top: 10vh;
     padding-bottom: 10vh;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: opacity(80%);
 
 }
 
@@ -95,8 +104,8 @@ section.normal {
 }
 section.efeitofundo {
     background-color:#ddbda3;
-    color: #38302b;
-    font-size: medium
+    color: #fffaf7;
+    font-size: medium;
 }
 
 section.normal, > p {
@@ -105,6 +114,14 @@ section.normal, > p {
     width: 400px;
     
 }
+
+section#img001 {
+    background-image: url(../desafio012/imagens/flowers-19830_640.jpg);
+    background-position: right center;
+    
+}
+
+    
 
 a {
     text-decoration: none;
