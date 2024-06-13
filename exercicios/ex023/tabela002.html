@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 002</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 400px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: rgb(141, 139, 139);
+            background-color: black;
+        }
+        tbody > tr:nth-child(2n) {
+            background-color: darkgrey;
+        }
+           td.num {
+            text-align: right;
+        }
+        td,th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead {
+            color: rgb(105, 76, 82);
+        }
+        tfoot {
+            background-color: darkgrey;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela 002 (Grande)</h1>
+<table>
+    <caption>População das Unidades Federativas</caption>
+    <thead>
+        <tr>
+            <th>Estado</th>
+            <th>População</th>
+            <th>PIB</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <td class="">São Paulo</td>
+        <td class="num">44 411 238</td>
+        <td class="num">43 694,68</td>
+        </tr>
+        <tr>
+            <td>Minas Gerais</td>
+            <td class="num">20 539 989</td>
+            <td class="num">24 884,94</td>
+        </tr>
+        <tr> <td>Mato Grosso do Sul</td>
+            <td class="num">20 539 989</td>
+            <td class="num">24 884,94</td></tr>
+    </tbody>
+    <tfoot>
+        <th>Total de habitantes</th>
+        <td class="num"><strong>64.951.227</strong></td>
+        <td class="num"><strong>6.857.962</strong></td>
+    </tfoot>
+</table>
+</body>
+</html>
