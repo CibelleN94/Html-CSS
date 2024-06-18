@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 14 - Tabela </title>
+    <style>
+        table {
+           border-collapse: collapse;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+           
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 5px;
+            width: 80px;
+        }
+        td.corcinza {
+            background-color: dimgray;
+            text-align: justify;
+            color: beige;
+        }
+        th.corcinza {
+            background-color: dimgray;
+            text-align: justify;
+            color: beige;
+        }
+        th.titulocor {
+            background-color:dimgray;
+            color: beige;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead> 
+        <th rowspan="2" class="titulocor" scope="col">Área</th>
+        <th rowspan="2" class="titulocor" scope="col">Disciplina</th>
+        <th colspan="2" class="titulocor" scope="col">Notas</th>
+        <tr></tr>
+        <th class="titulocor" scope="col">Nota 1</th>
+        <th class="titulocor" scope="col">Nota 2</th>
+        <th rowspan="2" class="titulocor" scope="col">Média</th>
+        </tr>
+        </thead>
+    <tbody>
+        <tr>
+        <th rowspan="3" scope="rowgroup">Exatas</th>
+        <td>Matemática</td>
+        <td>8</td>
+        <td>10</td>
+        <td>9,5</td>
+        </tr>
+    
+        <tr>
+         <td>Física</td>
+         <td>8</td>
+         <td>8</td>
+         <td>7,5</td>
+        </tr>
+        <tr>
+        <td>Química</td>
+        <td>9</td>
+        <td>8</td>
+        <td>10</td>
+      </tr>
+    <th class="corcinza" colspan="4">Médias Exatas</th>
+    <td class="corcinza">9</td>
+    <tr> 
+    <th rowspan="2" scope="rowgroup">Humanas</th>
+    <td>Geografia</td>
+    <td>10</td>
+    <td>9</td>
+    <td>9</td>
+    
+    </tr>
+    <tr>
+        <td>História</td>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+    </tr>
+    <tr>
+    <th class="corcinza" colspan="4">Médias Humanas</th>
+    <td class="corcinza">10</td>
+    </tr>
+
+    </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="pt-br">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Tabela 0.3</title>
+    <style>
+        body {
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.1em;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: indianred;
+            padding: 10px;
+        }
+        
+        thead {
+            text-align: center;
+            background-color: indianred;
+            color: beige;
+        }
+
+        td,th {
+            border: 1px solid rgb(37, 37, 37);
+            width: 100px;
+            padding: 5px;
+        }
+
+        th.comcor {
+            background-color: indianred;
+            color: beige;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Filmes Preferidos</caption>
+        <thead>
+            <th>Grupos</th>
+            <th>Nomes</th>
+            <th colspan="3">Filmes</th>
+        </thead>
+        <tbody>
+            <tr>
+            <th rowspan="3" class="comcor">Mulheres</th>
+            <td>Cibelle</td>
+            <td>A Bela e a Fera</td>
+            <td>Um amor para recordar</td>
+            <td>Os batutinhas</td>
+            </tr>
+
+            <tr>
+                <td>Ana Lúcia</td>
+                <td>Um amor para recordar</td>
+                <td>A lagoa azul</td>
+                <td>Cartas para Julieta</td>
+            </tr>
+
+            <tr>
+                <td>Manuella</td>
+                <td>Meu malvado favorito</td>
+                <td>Viva, a vida é uma festa!</td>
+                <td>Frozen</td>
+            </tr>
+            <tr>
+                <th rowspan="3" class="comcor">Homens</th>
+                <td>Rogério</td>
+                <td>Dirty Dance</td>
+                <td>Rambo</td>
+                <td>Mazaroppi</td>
+            </tr>
+            <tr>
+                <td>Fellipe</td>
+                <td>Pequeno principe</td>
+                <td>Todo mundo em pânico</td>
+                <td>American Pie</td>
+            </tr>
+
+            <tr>
+                <td>Caio</td>  
+                <td>Ratattouile</td>
+                <td>Divertidamente</td>
+                <td>O rei Leão</td>   
+                  </tr>
+
+        </tbody>
+    </table>
+    
+</body>
+</html>
