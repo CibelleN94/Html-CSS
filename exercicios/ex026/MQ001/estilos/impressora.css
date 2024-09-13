@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/*estilo para impressão*/
+
+* {
+    margin: 10px;
+    padding: 10px;
+}
+
+html {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5em;
+    line-height: 1.5em;
+
+}
+header {
+    background-color: dodgerblue;
+}
+header > h1 {
+    text-align: center;
+
+}
+menu {
+    display: none;
+}
+
+li {
+    color: aliceblue;
+    background-color: dodgerblue;
+}
+ul {
+    background-color: rgb(11, 56, 100);
+}
+article {
+    width: 100%;
+}
+
+article::after {
+    content: 'Este artigo foi impresso atraves do site Tecnologia e o saber';
+}
+
