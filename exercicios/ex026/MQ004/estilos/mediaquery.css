@@ -1,3 +1,77 @@
 @charset "UTF-8";
 
 /* todas as midias */
+
+/*typical device breakpoints 
+pequenas telas: até 600px
+celular: 600px até 768 px
+tablet: 768 px até 992px
+desktop: 992px até 1200 px
+grandes telas: acima de 1200px
+*/
+
+@media print {
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    body {
+        background: none;
+
+    }
+    main {
+       width: 80vw;
+        border: 2px solid black;
+
+    }
+    main::after {
+        content: 'Essa impressão foi feita atraves do site codando.com';
+        text-decoration: overline;
+    }
+    img#phone {display:none;}
+    img#tablet {display:none;}
+    img#desktop {display:none;}
+    img#print {display:block; width:20vw; padding:10px; margin:auto;}
+    img#telas {display: none;}
+    }
+    
+    
+
+
+@media screen and (min-width:768px) and (max-width:992px)
+{
+   body {
+    background-image: url(../imagens/back-tablet.jpg);
+   } 
+img#phone {display: none;}
+img#tablet {display: block; width:20vw; padding:10px; margin:auto;}
+img#print {display:none;}
+img#desktop {display: none;}
+img#telas {display: none;}
+
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    img#phone {display:none;}
+    img#tablet {display:none;}
+    img#print {display:none;}
+    img#desktop {display:block; width:20vw; padding:10px; margin:auto;}
+    img#telas {display:none;}
+    
+}
+
+@media screen and (min-width:1200px) {
+    body {
+        background-image: url(../imagens/back-tv.jpg);
+    }
+    img#phone {display:none;}
+    img#tablet {display:none;}
+    img#print {display:none;}
+    img#desktop {display:none;}
+    img#telas {display:block; width:20vw; padding:10px; margin:auto;}
+    
+}
