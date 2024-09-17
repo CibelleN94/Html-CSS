@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query Menu></title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mediaquery.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
   <header>
-    <h1>Cibelle Nobrega Fotografia</h1>
+    <h1>Meu primeiro menu <strong>Hamburguinho <img id="burguer" src="imagens/hamburger.png" alt=""></strong></h1>
     <span class="material-symbols-outlined" id="burguer" onclick="clickMenu()">menu</span>
     <menu id="itens">
         <ul>
@@ -28,6 +29,7 @@
         </p>
 
         <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet odio sed magni id illum inventore eum dolore ullam a, ipsam earum sunt laboriosam blanditiis cumque illo animi omnis aperiam totam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, error assumenda! Cum totam omnis optio modi dolor debitis in aliquid odio. Optio explicabo facilis laboriosam esse adipisci. Maxime, facere corrupti.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dolor quisquam rem nulla aliquam qui similique. Provident sunt vel molestiae soluta, corrupti rem iure, labore nostrum commodi rerum porro consequatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat id praesentium officia, omnis, aliquam molestias error consectetur ipsam exercitationem dolore autem maiores. Accusantium obcaecati iusto quaerat fugit cum. Amet, velit!</p>
     </article>
 </main>
 <script>
@@ -37,6 +39,14 @@ function clickMenu() {
     } else {
         itens.style.display = 'block'
     }
+}
+    function mudouTamanho() {
+        if (window.innerWidth >= 768) {
+        itens.style.display = 'block'
+} else {
+    itens.style.display = 'none'
+}
+    
 }
 </script>
 </body>

@@ -10,23 +10,26 @@ body, html {
 }
 
 header {
-    background-color:#8B7355;
+    background-color:#8B4C39;
 }
 header > h1 {
-    color:#6b3a2c;
+    color:#d8c3bd;
     text-shadow: 1px 1px 1px rgba(44, 43, 43, 0.726);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
+    text-align:center;
 }
-
+img#burguer {
+    width: 30px;
+    margin-top: 10px;
+}
 span#burguer {
-    background-color:#cc5454;
+    background-color:#8B4C39;
     width: 100vw;
-    color: azure;
+    color: rgb(194, 186, 191);
     text-align: center;
     padding: 10px;
     margin-top: 10px;
-    border: solid 2px #1b1b1a;
+    border: solid 2px #d8c3bd;
     cursor: pointer;
     
 }
@@ -50,7 +53,7 @@ menu> ul> li> a {
     text-decoration: none;
     color: #e6d3ba;
     text-align: center;
-    border-top: 2px solid #1b1b1a;
+    border: 2px solid #d8c3bd;
 }
 
 menu> ul> li> a:hover {
