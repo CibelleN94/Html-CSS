@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexible box 001</title>
-    <style> 
+   
+   <style> 
 
         div.conteiner {
             display: flex;
@@ -12,28 +13,25 @@
             flex-flow: row nowrap;
 
         }
+
         div.item {
             background-color: rgb(236, 228, 200);
             border: solid 2px black ;
-            flex-basis: 200px;
-            flex-shrink: 1;
-            flex-grow: 1;
+            text-align: center;
+            flex-basis: 200px;        
             
         }
 
-        div#ib {
-            color: blueviolet;
-            text-align:center;
-            font-size: 2.3em;
-        }
+         
     </style>
 </head>
 <body>
+
     <div class="conteiner">
-     <div class="item">A</div>
-     <div class="item" id="ib">Eu já sou vencedora e tenho muito sucesso.</div>
-     <div class="item">C</div>
-     <div class="item">D</div>
+     <div class="item" id="cx1">A</div>
+     <div class="item" id="cx2">Eu já sou vencedora e tenho muito sucesso.</div>
+     <div class="item" id="cx3">C</div>
+     <div class="item" id="cx4">D</div>
     </div>
     
 </body>

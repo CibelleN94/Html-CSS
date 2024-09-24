@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible box 001</title>
+    <style> 
+
+        div.conteiner {
+            display: flex;
+            background-color: brown;
+            flex-flow: row nowrap;
+
+        }
+        div.item {
+            background-color: rgb(236, 228, 200);
+            border: solid 2px black ;
+            
+            
+        }
+
+        div#ia {
+            flex-grow: 0;
+            flex-shrink: 1;
+            flex: 0 1 150px;
+            
+         }
+
+         div#ib {
+            flex: 2 1 150px;
+            
+            
+         }
+         
+         div#ic {
+            flex-grow: 0;
+            flex-shrink: 0;
+            flex: 0 0 150px;
+            
+         }
+          
+         div#id {
+            flex: 1 1 15px;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+     <div class="item"  id="ia">A</div>
+     <div class="item" id="ib">Eu já sou vencedora e tenho muito sucesso.</div>
+     <div class="item" id="ic">C</div>
+     <div class="item" id="id">D</div>
+    </div>
+    
+</body>
+</html>
